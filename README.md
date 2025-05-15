@@ -1,0 +1,3 @@
+Tugas UTS Praktikum Pmerograman Wen
+NAMA: TIO CHAERUL RAMADHAN
+NIM: 231110026
