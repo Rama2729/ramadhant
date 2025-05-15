@@ -1,3 +1,3 @@
-Tugas UTS Praktikum Pemrograman Wen
+Tugas UTS Praktikum Pemrograman Web
 NAMA: TIO CHAERUL RAMADHAN
 NIM: 231110026
