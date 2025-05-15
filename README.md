@@ -1,3 +1,3 @@
-Tugas UTS Praktikum Pmerograman Wen
+Tugas UTS Praktikum Pemrograman Wen
 NAMA: TIO CHAERUL RAMADHAN
 NIM: 231110026
