@@ -1,0 +1,170 @@
+;body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #d4d4d4;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+header {
+  background-color: #630b76;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.logo-image {
+  height: 80px;
+  margin-right: 5px;
+}
+
+.logo-text {
+  font-family: 'Marcellus', serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #d1d35d;
+}
+
+/* Navigation */
+.nav-menu {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: rgb(232, 232, 232);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+  color: #d1d35d;
+}
+
+/* Hero Section */
+.hero-section {
+  font-family: 'Marcellus', serif;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #630b79, #280631);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ebebeb;
+}
+
+.hero-text .highlight {
+  color: #ebe964;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  color: #ebebeb;
+}
+
+.hero-image img {
+  max-width: 250px;
+  height: auto;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 0;
+  background: linear-gradient(to right, #630b79, #280631)
+}
+
+.section-title {
+  font-family: 'Marcellus', serif;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #fdfefe;
+}
+
+/* Cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  font-family: 'Marcellus', serif;
+  letter-spacing: 2px;
+  background-color: #393939;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #b841ec;
+  margin-bottom: 0.75rem;
+}
+
+.card p {
+  color: #cfcfcf;
+}
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-menu {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+   .header-container
+   {
+    flex-direction: column;
+   }
+}
